@@ -1,17 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script");
 .reveal {
   font-family: 'Open Sans', sans-serif; }
   .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bold; }
-
-img {
-  border: none;
-  box-shadow: none;
-  width: 700px; }
+  .reveal img {
+    border: none !important;
+    box-shadow: none !important;
+    width: 400px; }
+  .reveal em {
+    color: #777;
+    font-size: 0.75em !important;
+    font-style: normal !important; }
 
 .no-dec {
   list-style: none !important; }
@@ -22,14 +28,221 @@ img {
 h2 {
   font-weight: bolder; }
 
-em {
-  color: #777;
-  font-size: 0.75em; }
-
 .noms {
   margin-top: 220px !important;
   line-height: 25px; }
   .noms p {
     line-height: 25px; }
+
+.deux h2 {
+  margin-top: -100px; }
+.deux .columns {
+  margin-top: 200px; }
+  .deux .columns .left {
+    margin-right: 500px; }
+    .deux .columns .left .outter {
+      list-style: none;
+      font-weight: bold;
+      margin: 20px auto 10px auto; }
+    .deux .columns .left .inner {
+      list-style: none; }
+  .deux .columns .right {
+    margin-top: -150px; }
+    .deux .columns .right img {
+      display: block; }
+    .deux .columns .right .inte {
+      width: 450px; }
+    .deux .columns .right .diff {
+      margin-top: 200px;
+      width: 250px; }
+
+.trois .title-box .sub-title-context {
+  opacity: 0; }
+  .trois .title-box .sub-title-context h3 {
+    position: relative;
+    left: 200px; }
+  .trois .title-box .sub-title-context img {
+    z-index: -1;
+    position: relative;
+    left: 500px;
+    bottom: 250px;
+    width: 400px; }
+.trois .columns {
+  margin-top: 200px; }
+  .trois .columns p {
+    z-index: 1;
+    font-family: 'Dancing Script', cursive;
+    font-size: 55px !important; }
+  .trois .columns em {
+    z-index: 1;
+    display: block; }
+  .trois .columns img {
+    z-index: 0; }
+  .trois .columns .descartes img {
+    margin-top: -15px;
+    transform: scale(0.9); }
+  .trois .columns .descartes p {
+    position: relative;
+    top: 40px;
+    left: 180px; }
+  .trois .columns .newton img {
+    margin-top: 60px;
+    transform: scaleX(-1) scale(1.16); }
+  .trois .columns .newton p {
+    position: relative;
+    top: 80px;
+    right: 60px; }
+  .trois .columns .young img {
+    margin-top: 0px;
+    transform: scaleX(-1) scale(0.9); }
+  .trois .columns .young p {
+    position: relative;
+    top: 20px;
+    right: 40px; }
+.trois .thug {
+  position: relative;
+  top: -45px; }
+  .trois .thug img {
+    z-index: 2; }
+  .trois .thug .hat {
+    position: relative;
+    bottom: 700px;
+    left: 630px;
+    transform: scale(0.5); }
+  .trois .thug .glasses {
+    position: relative;
+    bottom: 1350px;
+    left: 630px;
+    transform: scale(0.7); }
+  .trois .thug .cig {
+    position: relative;
+    bottom: 850px;
+    left: 520px;
+    transform: scale(0.4); }
+.trois .dates {
+  position: relative;
+  top: -1250px; }
+  .trois .dates h2 {
+    color: #777;
+    position: relative;
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    display: inline; }
+  .trois .dates .xvii {
+    right: 250px; }
+  .trois .dates .xix {
+    left: 550px; }
+.trois .newton2 img {
+  margin-top: 60px;
+  transform: scale(1.16); }
+
+.quatre h2 .small {
+  font-size: 28px;
+  margin-left: 20px; }
+.quatre p {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+.quatre img {
+  display: inline; }
+.quatre .left {
+  position: relative;
+  top: -150px;
+  left: -200px;
+  width: 1100px; }
+.quatre .right {
+  position: relative;
+  left: 60px;
+  width: 400px; }
+
+.cinq .title-box .sub-title h3 {
+  position: relative;
+  left: 200px; }
+.cinq p {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+.cinq li {
+  z-index: 1 !important;
+  margin-bottom: 20px !important; }
+  .cinq li span {
+    font-weight: bold !important; }
+.cinq img {
+  margin-top: -20px !important;
+  width: 1100px; }
+
+.six h2 .small {
+  font-size: 28px;
+  margin-left: 20px; }
+.six p {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+.six img {
+  width: 800px; }
+
+.sept h2 {
+  margin-top: -40px; }
+.sept h4 {
+  margin-top: 20px; }
+.sept p {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+.sept video {
+  width: 800px; }
+
+.huit h2 {
+  margin-top: -100px;
+  margin-bottom: 120px; }
+.huit p {
+  margin-left: 100px;
+  text-align: left;
+  margin-top: 100px;
+  margin-bottom: 40px; }
+.huit img {
+  position: relative;
+  width: 320px; }
+
+.neuf h2 {
+  margin-top: -100px;
+  margin-bottom: 120px; }
+.neuf p {
+  margin-left: 100px;
+  text-align: left;
+  margin-top: 100px;
+  margin-bottom: 40px; }
+.neuf img {
+  box-shadow: 15px 18px 49px 5px rgba(0, 0, 0, 0.32) !important;
+  width: 420px; }
+.neuf em {
+  display: block;
+  margin-top: 20px; }
+
+.dix h2 {
+  margin-top: -100px; }
+.dix img {
+  width: 400px; }
+
+.onze h2 {
+  margin-top: -100px; }
+.onze img {
+  width: 400px; }
+
+.douze h2 {
+  margin-top: -100px; }
+.douze img {
+  width: 400px; }
+
+.treize h2 {
+  margin-top: -100px; }
+.treize img {
+  width: 400px; }
+
+.quatorze h2 {
+  margin-top: -100px; }
+.quatorze img {
+  width: 400px; }
+
+.quinze h2 {
+  margin-top: -100px; }
+.quinze img {
+  width: 400px; }
 
 /*# sourceMappingURL=main.css.map */
