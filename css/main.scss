@@ -1,13 +1,56 @@
+//@import url('https://fonts.googleapis.com/css?family=Montserrat');
+//@import url('https://fonts.googleapis.com/css?family=Roboto');
+//@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+//@import url('https://fonts.googleapis.com/css?family=Alegreya');
+//@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+
+.reveal {
+    font-family: 'Open Sans', sans-serif;
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: bold;
+    }
+}
+
+
 img {
   border: none;
   box-shadow: none;
+    width: 700px;
 }
 
 .no-dec {
-  list-style: none;
+  list-style: none !important;
+  // float: left;
 }
 
 .orange {
+  //color: #f68320;
   color: #f68320;
 }
 
+h2 {
+  font-weight: bolder;
+}
+
+em {
+  color: #777;
+  font-size: 0.75em;
+}
+
+.noms {
+  margin-top: 220px !important;
+  p{
+    line-height: 25px;
+  }
+  line-height: 25px;
+}

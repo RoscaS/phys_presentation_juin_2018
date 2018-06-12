@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44522bf2-f3b5-4410-b0ca-41d18db0871d" name="Default" comment="" />
+    <list default="true" id="44522bf2-f3b5-4410-b0ca-41d18db0871d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/slides/03.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/simple.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme/simple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/01.html" beforeDir="false" afterPath="$PROJECT_DIR$/slides/01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/02.html" beforeDir="false" afterPath="$PROJECT_DIR$/slides/02.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,16 +22,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5865413">
+    <splitter split-orientation="horizontal" split-proportion="0.7005566">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.5">
+        <splitter split-orientation="horizontal" split-proportion="0.5394807">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/README.md">
+                  <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+                    <state split_layout="FIRST">
+                      <first_editor relative-caret-position="336">
+                        <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+                      </first_editor>
+                      <second_editor>
+                        <markdownNavigatorState />
+                      </second_editor>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
               <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/index.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="792">
-                      <caret line="33" selection-start-line="33" selection-end-line="33" />
+                    <state relative-caret-position="768">
+                      <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
                     </state>
                   </provider>
                 </entry>
@@ -27,38 +53,63 @@
             </leaf>
           </split-first>
           <split-second>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="init.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/js/init.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="432">
-                      <caret line="18" selection-start-line="18" selection-end-line="18" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="02.html" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/slides/02.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="120">
-                      <caret line="5" selection-start-line="5" selection-end-line="5" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
+            <splitter split-orientation="vertical" split-proportion="0.16521318">
+              <split-first>
+                <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+                  <file leaf-file-name="01.html" pinned="false" current-in-tab="true">
+                    <entry file="file://$PROJECT_DIR$/slides/01.html">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="24">
+                          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                </leaf>
+              </split-first>
+              <split-second>
+                <splitter split-orientation="vertical" split-proportion="0.5">
+                  <split-first>
+                    <leaf>
+                      <file leaf-file-name="02.html" pinned="false" current-in-tab="true">
+                        <entry file="file://$PROJECT_DIR$/slides/02.html">
+                          <provider selected="true" editor-type-id="text-editor">
+                            <state relative-caret-position="456">
+                              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+                            </state>
+                          </provider>
+                        </entry>
+                      </file>
+                    </leaf>
+                  </split-first>
+                  <split-second>
+                    <leaf>
+                      <file leaf-file-name="03.html" pinned="false" current-in-tab="true">
+                        <entry file="file://$PROJECT_DIR$/slides/03.html">
+                          <provider selected="true" editor-type-id="text-editor">
+                            <state relative-caret-position="48">
+                              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+                            </state>
+                          </provider>
+                        </entry>
+                      </file>
+                    </leaf>
+                  </split-second>
+                </splitter>
+              </split-second>
+            </splitter>
           </split-second>
         </splitter>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.5">
+        <splitter split-orientation="vertical" split-proportion="0.76744187">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="01.html" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/slides/01.html">
+              <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/css/main.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="48">
-                      <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+                    <state relative-caret-position="552">
+                      <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
                     </state>
                   </provider>
                 </entry>
@@ -66,12 +117,12 @@
             </leaf>
           </split-first>
           <split-second>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/css/main.scss">
+            <leaf>
+              <file leaf-file-name="init.js" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/js/init.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="312">
-                      <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+                    <state relative-caret-position="120">
+                      <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
                     </state>
                   </provider>
                 </entry>
@@ -86,8 +137,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -99,12 +150,14 @@
       <list>
         <option value="$PROJECT_DIR$/slides/00.html" />
         <option value="$PROJECT_DIR$/js/reveal_config.js" />
-        <option value="$PROJECT_DIR$/js/init.js" />
         <option value="$PROJECT_DIR$/test/demo.html" />
-        <option value="$PROJECT_DIR$/css/main.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/theme/simple.css" />
+        <option value="$PROJECT_DIR$/js/init.js" />
         <option value="$PROJECT_DIR$/slides/01.html" />
+        <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/slides/02.html" />
+        <option value="$PROJECT_DIR$/slides/03.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -120,10 +173,10 @@
       <path value="$PROJECT_DIR$/plugin/multiplex/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="6" />
     <option name="y" value="-21" />
-    <option name="width" value="2913" />
+    <option name="width" value="2511" />
     <option name="height" value="2145" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -150,6 +203,11 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="07-PhysB_Presentatoin" type="cbb8eebc:String" user="07-PhysB_Presentatoin" />
             </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="07-PhysB_Presentatoin" type="cbb8eebc:String" user="07-PhysB_Presentatoin" />
+              <item name="slides" type="cbb8eebc:String" user="slides" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -160,12 +218,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.html" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -189,6 +247,7 @@
   <component name="RunManager">
     <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote" port="8200" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/PhysB-Reveal/index.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/07-PhysB_Presentatoin/index.html" />
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html" />
@@ -209,21 +268,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="-21" width="2913" height="2145" extended-state="4" />
+    <frame x="888" y="6" width="2946" height="2118" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="7" weight="0.17391305" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50037205" side_tool="true" weight="0.28135592" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.3297244" />
-      <window_info anchor="bottom" x="2739" y="1452" width="1095" height="702" id="Run" order="3" sideWeight="0.49919173" weight="0.32617" />
+      <window_info anchor="bottom" x="2739" y="1452" width="1095" height="702" id="Run" order="3" sideWeight="0.49919173" weight="0.3260659" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32025194" />
       <window_info anchor="bottom" x="274" y="234" width="1203" height="423" id="Python Console" order="6" sideWeight="0.49962798" weight="0.32066277" />
-      <window_info anchor="bottom" x="1508" y="853" width="1012" height="310" id="Terminal" internal_type="SLIDING" order="16" sideWeight="0.3039362" type="FLOATING" weight="0.1894685" />
-      <window_info active="true" anchor="right" content_ui="combo" x="1965" y="555" width="930" height="765" id="Project" order="5" sideWeight="0.63591516" visible="true" weight="0.12015105" />
+      <window_info anchor="bottom" x="1264" y="848" width="1012" height="310" id="Terminal" internal_type="SLIDING" order="16" sideWeight="0.3039362" type="FLOATING" weight="0.1894685" />
+      <window_info anchor="right" content_ui="combo" x="1965" y="555" width="930" height="765" id="Project" order="5" sideWeight="0.63591516" visible="true" weight="0.08520027" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" x="2303" y="593" width="320" height="969" id="Database" order="4" sideWeight="0.49938875" weight="0.09864604" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49973875" weight="0.32816288" />
       <window_info anchor="right" id="SciView" order="3" sideWeight="0.49938875" weight="0.3299851" />
       <window_info x="1965" y="555" width="930" height="1565" id="Structure" order="0" sideWeight="0.36408484" side_tool="true" weight="0.08984375" />
-      <window_info anchor="bottom" x="1335" y="528" width="579" height="516" id="Debug" order="17" sideWeight="0.5008083" side_tool="true" weight="0.32881355" />
+      <window_info anchor="bottom" x="1335" y="528" width="579" height="516" id="Debug" order="17" sideWeight="0.5008083" side_tool="true" weight="0.32848838" />
       <window_info id="Favorites" order="1" sideWeight="0.1437008" side_tool="true" weight="0.0679702" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -234,7 +295,6 @@
       <window_info active="true" anchor="bottom" id="manage.py@02-Generic-Website" order="15" visible="true" weight="0.20767717" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" x="3108" y="6" width="726" height="1059" id="Documentation" order="7" sideWeight="0.30160272" side_tool="true" type="WINDOWED" weight="0.11371238" />
-      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49973875" weight="0.32816288" />
       <window_info active="true" anchor="bottom" id="Concurrent Activities Diagram" order="1" visible="true" weight="0.32923228" />
       <window_info anchor="bottom" x="1210" y="906" width="1152" height="684" id="Database Console" order="14" side_tool="true" type="FLOATING" weight="0.3297244" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -311,13 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -328,31 +381,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/theme/simple.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="1248">
+          <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slides/02.html">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="336">
+            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/init.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/slides/01.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slides/02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slides/03.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
         </state>
       </provider>
     </entry>
