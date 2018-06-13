@@ -5,7 +5,6 @@
 //@import url('https://fonts.googleapis.com/css?family=Lato');
 //@import url('https://fonts.googleapis.com/css?family=Roboto');
 //@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
@@ -52,22 +51,34 @@ h2 {
     line-height: 25px;
 }
 
+.logo {
+    opacity: 0.7;
+    position: relative;
+    top: 340px;
+    left: 600px;
+    width: 600px !important;
+}
 
+.date {
+    margin-left: 20px !important;
+    //font-size: 14px !important;
+}
 
 // SLIDE 2
 .deux {
     h2 {
-        margin-top: -100px;
+        margin-top: -50px;
     }
 
     .columns {
         margin-top: 200px;
 
         .left {
+            margin-top: -100px;
             margin-right: 500px;
 
             .outter {
-                list-style: none;
+                //list-style: none;
                 font-weight: bold;
                 margin: 20px auto 10px auto;
             }
@@ -78,7 +89,7 @@ h2 {
         }
 
         .right {
-            margin-top: -150px;
+            margin-top: -50px;
 
             img {
                 display: block;
@@ -95,8 +106,6 @@ h2 {
         }
     }
 }
-
-
 
 // SLIDE 3
 .trois {
@@ -241,8 +250,6 @@ h2 {
     }
 }
 
-
-
 //SLIDE 4 Huygens
 .quatre {
     h2 {
@@ -275,8 +282,6 @@ h2 {
         width: 400px;
     }
 }
-
-
 
 //SLIDE 5 Interferences
 .cinq {
@@ -311,8 +316,6 @@ h2 {
         width: 1100px;
     }
 }
-
-
 
 //SLIDE 6 Young
 .six {
@@ -385,8 +388,6 @@ h2 {
     }
 }
 
-
-
 //SLIDE 7
 .sept {
     h2 {
@@ -406,8 +407,6 @@ h2 {
         width: 800px;
     }
 }
-
-
 
 //SLIDE 8 Diffraction
 .huit {
@@ -434,8 +433,6 @@ h2 {
     }
 }
 
-
-
 //SLIDE 9 Babinet
 .neuf {
     h2 {
@@ -460,17 +457,21 @@ h2 {
     }
 }
 
-
-
 //SLIDE 10 Dispositif
 .dix {
     h1 {
-        margin-top: -200px;
+        margin-top: -100px;
         margin-bottom: 50px;
     }
 
     p {
         margin-bottom: 90px;
+    }
+
+    p.second {
+        margin-left: -450px;
+        margin-top: 50px;
+        margin-bottom: 10px;
     }
 
     .left {
@@ -486,7 +487,18 @@ h2 {
     }
 }
 
-
+// Pour les trois prochains slides
+table {
+    max-width: 550px;
+    tr {
+        td:first-child {
+            padding-left: 30px !important;
+        }
+        td:last-child {
+            width: 140px;
+        }
+    }
+}
 
 //SLIDE 11 Experience 1
 .onze {
@@ -496,9 +508,12 @@ h2 {
     }
 
     .first {
+        p {
+            margin-top: 150px;
+        }
 
-        img {
-            width: 400px;
+        .pente {
+            margin-top: 40px;
         }
 
         .columns {
@@ -507,112 +522,159 @@ h2 {
             li {
                 margin-top: 20px;
             }
-        }
-    }
 
-    .second {
-
-    }
-
-    .third {
-
-    }
-}
-
-
-
-//SLIDE 12 Experience 2
-.douze {
-    h2 {
-        margin-bottom: 100px;
-        margin-top: 50px;
-    }
-
-    .first {
-
-        img {
-            width: 400px;
-        }
-
-        .columns {
-            margin-top: 50px;
-
-            li {
-                margin-top: 20px;
+            .column:last-child {
+                margin-top: -80px;
             }
         }
     }
 
     .second {
+        h5 {
+            margin-top: 200px;
+        }
+        iframe {
+
+        }
 
     }
 
     .third {
 
-    }
-}
+        ul {
+            margin-top: 100px;
+            li {
+                list-style: none !important;
+                margin-bottom: 40px;
+            }
 
-
-
-//SLIDE 13 Experience 3
-.treize {
-    h2 {
-        margin-bottom: 100px;
-        margin-top: 50px;
+        }
     }
 
-    .first {
-
-        img {
-            width: 400px;
+    //SLIDE 12 Experience 2
+    .douze {
+        h2 {
+            margin-bottom: 100px;
+            margin-top: 50px;
         }
 
-        .columns {
-            margin-top: 50px;
+        .first {
+            p {
+                margin-top: 150px;
+            }
 
-            li {
-                margin-top: 20px;
+            .pente {
+                margin-top: 40px;
+            }
+
+            .columns {
+                margin-top: 50px;
+
+                li {
+                    margin-top: 20px;
+                }
+
+                .column:last-child {
+                    margin-top: -80px;
+                }
+            }
+        }
+
+        .second {
+            h5 {
+                margin-top: 200px;
+            }
+            iframe {
+
+            }
+
+        }
+
+        .third {
+
+            ul {
+                margin-top: 100px;
+                li {
+                    list-style: none !important;
+                    margin-bottom: 40px;
+                }
+
             }
         }
     }
 
-    .second {
+    //SLIDE 13 Experience 3
+    .treize {
+        h2 {
+            margin-bottom: 100px;
+            margin-top: 50px;
+        }
+
+        .first {
+            p {
+                margin-top: 150px;
+            }
+
+            .pente {
+                margin-top: 40px;
+            }
+
+            .columns {
+                margin-top: 50px;
+
+                li {
+                    margin-top: 20px;
+                }
+
+                .column:last-child {
+                    margin-top: -80px;
+                }
+            }
+        }
+
+        .third {
+
+            ul {
+                margin-top: 100px;
+                li {
+                    list-style: none !important;
+                    margin-bottom: 40px;
+                }
+
+            }
+        }
+    }
+
+    //SLIDE 14 Conclusion
+    .quatorze {
+        h2 {
+            margin-bottom: 200px;
+            margin-top: -200px;
+        }
+
+
+        ul {
+            margin-top: 100px;
+            li {
+                list-style: none !important;
+                margin-bottom: 40px;
+            }
+
+        }
 
     }
 
-    .third {
+    //SLIDE 15 ???
+    .quinze {
+        h2 {
+            margin-top: -100px;
+        }
 
-    }
-}
+        p {
 
-
-
-//SLIDE 14 Conclusion
-.quatorze {
-    h2 {
-        margin-top: -100px;
-    }
-
-    p {
-
-    }
-    img {
-        width: 400px;
-    }
-}
-
-
-
-//SLIDE 15 ???
-.quinze {
-    h2 {
-        margin-top: -100px;
-    }
-
-    p {
-
-    }
-    img {
-        width: 400px;
+        }
+        img {
+            width: 400px;
+        }
     }
 }

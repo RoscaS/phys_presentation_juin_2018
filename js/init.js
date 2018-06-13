@@ -13,6 +13,7 @@ Reveal.initialize({
     mouseWheel: true,
     width: 1920,
    	height: 1080,
+    slideNumber: true,
 });
 
 
@@ -24,6 +25,7 @@ Reveal.initialize({
 
 
 $('#01').load('slides/01.html');
+// $('#intro').load('slides/introduction.html');
 $('#02').load('slides/02.html');
 $('#03').load('slides/03.html');
 $('#04').load('slides/04.html');

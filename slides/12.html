@@ -1,4 +1,4 @@
-<h2>Expérience 2: diffraction par une <span class="orange">double</span> fente</h2>
+<h2>3.2 Expérience 2: diffraction par une <span class="orange">double</span> fente</h2>
 
 <section class="first" data-transition="slide">
 
@@ -12,24 +12,74 @@
   <div class="columns">
     <div class="column">
       <ol>
-        <li>Les distances mesurées sont mises dans un tableau.</li>
-        <li>
+        <li class="fragment" data-fragment-index="1">
+          Les distances mesurées sont mises dans un tableau.
+        </li>
+        <li class="fragment" data-fragment-index="2">
           La relation étant linéaire, la droite de
           régression linéaire est de pente $p=ym^{-1}$
         </li>
       </ol>
-      <p class="has-text-left">
-        <br>
+      <p class="has-text-left pente fragment" data-fragment-index="2">
         $\quad\quad \Rightarrow p = ym^{-1}$ <br>
         $\quad\quad\quad\; d = \lambda Lp^{-1}$
       </p>
     </div>
 
     <div class="column">
-      <p>Tableau2</p>
+
+      <table class="table is-narrow is-fullwidth fragment" data-fragment-index="1">
+        <thead>
+          <tr>
+            <th>$n$</th>
+            <th>$y$</th>
+            <th>$\delta y$</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>1</td>
+          <td>0.2</td>
+          <td>0.1</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>0.3</td>
+          <td>0.1</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>0.4</td>
+          <td>0.1</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>0.6</td>
+          <td>0.1</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>0.7</td>
+          <td>0.1</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>0.9</td>
+          <td>0.1</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>1</td>
+          <td>0.1</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>1.2</td>
+          <td>0.1</td>
+        </tr>
+        </tbody>
+      </table>
     </div>
-
-
   </div>
 </section>
 
@@ -37,7 +87,13 @@
 
 <section class="second" data-transition="zoom">
 
-  <p>Plot2</p>
+  <h5>$p = (0.147 \pm 0.002)cm$</h5>
+  <iframe src="https://www.desmos.com/calculator/tr7h62qpue?embed"
+          width="1200px" height="500px"
+          style="border: 0px solid #ccc"
+          frameborder=0></iframe>
+
+
 
 </section>
 
@@ -46,6 +102,16 @@
 
 <section class="third" data-transition="zoom">
 
-  <p>Incertitudes2</p>
+  <h3>Incertitudes</h3>
+
+  <ul>
+    <li>
+      $d = \lambda Lp^{-1}$
+    </li>
+    <li>
+      $\Delta d = |Lp^{-1}| \cdot \Delta \lambda + |\lambda p^{-1}| \cdot \Delta L + |\lambda L p^{-2}| \cdot p$
+    </li>
+    <li>$d = (0.0026 \pm 0.00006)m$</li>
+  </ul>
 
 </section>
