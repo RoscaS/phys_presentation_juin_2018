@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+//@import url('https://fonts.googleapis.com/css?family=Montserrat');
 //@import url('https://fonts.googleapis.com/css?family=Roboto');
 //@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 //@import url('https://fonts.googleapis.com/css?family=Alegreya');
 //@import url('https://fonts.googleapis.com/css?family=Lato');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+//@import url('https://fonts.googleapis.com/css?family=Roboto');
+//@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
@@ -33,11 +34,9 @@
 
 .no-dec {
     list-style: none !important;
-    // float: left;
 }
 
 .orange {
-    //color: #f68320;
     color: #f68320;
 }
 
@@ -52,6 +51,8 @@ h2 {
     }
     line-height: 25px;
 }
+
+
 
 // SLIDE 2
 .deux {
@@ -95,6 +96,8 @@ h2 {
     }
 }
 
+
+
 // SLIDE 3
 .trois {
     .title-box {
@@ -114,9 +117,7 @@ h2 {
         }
     }
 
-
     .textes {
-
 
     }
 
@@ -155,9 +156,7 @@ h2 {
 
             img {
                 margin-top: 60px;
-                transform:
-                    scaleX(-1)
-                    scale(1.16);
+                transform: scaleX(-1) scale(1.16);
             }
 
             p {
@@ -171,9 +170,7 @@ h2 {
 
             img {
                 margin-top: 0px;
-                transform:
-                    scaleX(-1)
-                    scale(0.9)
+                transform: scaleX(-1) scale(0.9)
             }
 
             p {
@@ -226,7 +223,7 @@ h2 {
             display: inline;
         }
 
-        .xvii{
+        .xvii {
             right: 250px;
         }
 
@@ -245,6 +242,7 @@ h2 {
 }
 
 
+
 //SLIDE 4 Huygens
 .quatre {
     h2 {
@@ -259,8 +257,7 @@ h2 {
         margin-bottom: 40px;
     }
 
-
-    img{
+    img {
         display: inline;
     }
 
@@ -280,8 +277,8 @@ h2 {
 }
 
 
-//SLIDE 5 Interferences
 
+//SLIDE 5 Interferences
 .cinq {
 
     .title-box {
@@ -301,10 +298,10 @@ h2 {
     }
 
     li {
-        z-index: 1!important;
+        z-index: 1 !important;
         margin-bottom: 20px !important;
         span {
-            font-weight: bold!important;
+            font-weight: bold !important;
         }
     }
 
@@ -318,7 +315,6 @@ h2 {
 
 
 //SLIDE 6 Young
-
 .six {
     h2 {
         .small {
@@ -332,14 +328,66 @@ h2 {
         margin-bottom: 40px;
     }
 
-
     img {
         width: 800px;
     }
+
+    .maths {
+        h2 {
+            margin-top: -100px;
+            margin-bottom: 20px;
+        }
+
+        .first-p {
+            text-align: left;
+            margin-left: 50px;
+            margin-bottom: -90px;
+        }
+
+        ul {
+            margin-left: -300px;
+            li {
+                list-style-type: none;
+            }
+        }
+
+        img {
+            position: relative;
+            top: 60px;
+            left: 120px;
+            display: inline;
+            width: 500px;
+        }
+
+        .second-p {
+            text-align: left;
+            margin-left: 50px;
+            margin-top: 40px;
+            margin-bottom: -30px;
+        }
+
+        .second-ul {
+            margin-top: 40px;
+            margin-left: 40px;
+            //margin-left: -450px;
+        }
+
+        .right {
+        }
+
+        .thrid-p {
+            margin-bottom: -10px !important;
+        }
+
+        .box-1 {
+            color: red;
+        }
+    }
 }
 
-//SLIDE 7
 
+
+//SLIDE 7
 .sept {
     h2 {
         margin-top: -40px;
@@ -354,27 +402,30 @@ h2 {
         margin-bottom: 40px;
     }
 
-
     video {
         width: 800px;
     }
 }
 
-//SLIDE 8 Diffraction
 
+
+//SLIDE 8 Diffraction
 .huit {
     h2 {
         margin-top: -100px;
         margin-bottom: 120px;
     }
 
-    p {
+    .first-p {
         margin-left: 100px;
         text-align: left;
-        margin-top: 100px;
+        margin-top: 50px;
         margin-bottom: 40px;
     }
 
+    .second-p {
+        margin-left: 100px;
+    }
 
     img {
         position: relative;
@@ -383,8 +434,9 @@ h2 {
     }
 }
 
-//SLIDE 9 Babinet
 
+
+//SLIDE 9 Babinet
 .neuf {
     h2 {
         margin-top: -100px;
@@ -398,7 +450,7 @@ h2 {
         margin-bottom: 40px;
     }
     img {
-        box-shadow: 15px 18px 49px 5px rgba(0,0,0,0.32) !important;
+        box-shadow: 15px 18px 49px 5px rgba(0, 0, 0, 0.32) !important;
         //position: relative;
         width: 420px;
     }
@@ -408,68 +460,134 @@ h2 {
     }
 }
 
-//SLIDE 10
 
+
+//SLIDE 10 Dispositif
 .dix {
-    h2 {
-        margin-top: -100px;
+    h1 {
+        margin-top: -200px;
+        margin-bottom: 50px;
     }
 
     p {
-
+        margin-bottom: 90px;
     }
-    img {
-        width: 400px;
+
+    .left {
+        li {
+            margin-top: 0px !important;
+        }
+    }
+
+    .right {
+        img {
+            width: 800px;
+        }
     }
 }
 
-//SLIDE 11
 
+
+//SLIDE 11 Experience 1
 .onze {
     h2 {
-        margin-top: -100px;
+        margin-bottom: 100px;
+        margin-top: 50px;
     }
 
-    p {
+    .first {
+
+        img {
+            width: 400px;
+        }
+
+        .columns {
+            margin-top: 50px;
+
+            li {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .second {
 
     }
-    img {
-        width: 400px;
+
+    .third {
+
     }
 }
 
-//SLIDE 12
 
+
+//SLIDE 12 Experience 2
 .douze {
     h2 {
-        margin-top: -100px;
+        margin-bottom: 100px;
+        margin-top: 50px;
     }
 
-    p {
+    .first {
+
+        img {
+            width: 400px;
+        }
+
+        .columns {
+            margin-top: 50px;
+
+            li {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .second {
 
     }
-    img {
-        width: 400px;
+
+    .third {
+
     }
 }
 
-//SLIDE 13
 
+
+//SLIDE 13 Experience 3
 .treize {
     h2 {
-        margin-top: -100px;
+        margin-bottom: 100px;
+        margin-top: 50px;
     }
 
-    p {
+    .first {
+
+        img {
+            width: 400px;
+        }
+
+        .columns {
+            margin-top: 50px;
+
+            li {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .second {
 
     }
-    img {
-        width: 400px;
+
+    .third {
+
     }
 }
 
-//SLIDE 14
 
+
+//SLIDE 14 Conclusion
 .quatorze {
     h2 {
         margin-top: -100px;
@@ -483,8 +601,9 @@ h2 {
     }
 }
 
-//SLIDE 15
 
+
+//SLIDE 15 ???
 .quinze {
     h2 {
         margin-top: -100px;

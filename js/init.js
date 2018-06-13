@@ -33,3 +33,8 @@ $('#07').load('slides/07.html');
 $('#08').load('slides/08.html');
 $('#09').load('slides/09.html');
 $('#10').load('slides/10.html');
+$('#11').load('slides/11.html');
+$('#12').load('slides/12.html');
+$('#13').load('slides/13.html');
+$('#14').load('slides/14.html');
+$('#15').load('slides/15.html');
